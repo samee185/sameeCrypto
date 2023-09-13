@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../stylesheets/dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.css">
+</head>
+<body>
+            <!-- HEADER -->
+    <section id="header">
+        <nav>
+                <!-- LOGO -->     
+            <div id="sameelogo">
+                <a href="landingpage.html">
+                    <span id="logo1">SAMEE</span>
+                    <span id="logo2">XVIII-V & CO</span>
+                </a>
+            </div>
+            <div class="dropdown">
+              <a href="#" class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../images/miss moji.jpeg" alt="" width="52" height="52" class="rounded-circle me-2">
+                <strong>Temmybaby <i class="bi bi-patch-check-fill" id="verified"></i></strong>
+              </a>
+              <ul class="dropdown-menu text-small shadow" style="background-color: rgb(220, 222, 247);">
+                <li><a class="dropdown-item" href="#">Settings <i class="bi bi-gear"></i></a></li>
+                <li><a class="dropdown-item" href="#">Profile <i class="bi bi-person-circle"></i></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="signin.html">Sign out <i class="bi bi-box-arrow-in-right"></i></a></li>
+              </ul>
+            </div>
+        </nav>
+    </section>
+          <!-- SIDE BAR -->
+    <div class="d-flex flex-column flex-shrink-0 pt-5" style="width: 230px; height:1800px; background-color: rgba(40, 55, 255, 0.4); position: fixed;margin-top:6rem; z-index:3;" id="sideber"> 
+        <ul class="nav nav-pills flex-column mb-auto pt-5 fs-5">
+          <li class="nav-item mb-4">
+            <a href="dashboard.html" class="nav-link active" style="background-color:rgb(68, 73, 181);" aria-current="page">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+              <i class="bi bi-menu-button-wide"></i>  Dashboard
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="markets.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              <i class="bi bi-graph-up-arrow"></i>  Markets
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="deposits.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+              <i class="bi bi-cash-stack"></i>  Deposit
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="withdrawals.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+              <i class="bi bi-cash-coin"></i>  Withdrawal
+            </a>
+          </li>
+          <li class="mb-4">
+            <a href="walletconnect.html" class="nav-link link-body-emphasis">
+              <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+              <i class="bi bi-plugin"></i> Connect Wallet
+            </a>
+          </li>
+        </ul>
+      </div>        
+      <div class="coinside">
+        <ul>
+          <li>
+            <img src="../images/dashbtc.svg  " alt="btc" width="42" height="42" class="rounded-circle ">
+            <div class="ctext">
+              <h6>BTC</h6>
+              <p>23,833.44</p>
+              <p id="red">-714.07 (-2.42%)</p>
+            </div>
+          </li>
+          <li>
+            <img src="../images/dashusdt.svg" alt="usdt" width="42" height="42" class="rounded-circle ">
+            <div class="ctext">
+              <h6>USDT</h6>
+              <p>0.9993</p>
+              <p id="red">-0.0005 (-0.05%)</p>
+            </div>
+          </li>
+          <li>
+            <img src="../images/xrp-logo.png" alt="xrp" width="42" height="42" class="rounded-circle ">
+            <div class="ctext">
+              <h6>XRP</h6>
+              <p>0.4571</p>
+              <p id="red">-0.0102 (-2.18%)</p>
+            </div>
+          </li>
+          <li>
+            <img src="../images/dasheth.png" alt="eth" width="42" height="42" class="rounded-circle ">
+            <div class="ctext">
+              <h6>ETH</h6>
+              <p>1,895.66</p>
+              <p id="red">-94.14 (-4.73%)</p>
+            </div>
+          </li>
+          <li>
+            <img src="../images/dashshib.png" alt="shiba" width="44" height="44" class="rounded-circle " id="shiba">
+            <div class="ctext" id="">
+              <h6>SHIB</h6>
+              <p>0.00000945</p>
+              <p id="red">0.00000055 (-5.49%)</p>
+            </div>
+          </li>
+          <li>
+            <img src="../images/dashbnb.png" alt="btc" width="42" height="42" class="rounded-circle">
+            <div class="ctext">
+              <h6>BNB</h6>
+              <p>332.2</p>
+              <p id="red">-4.2 (-1.29%)</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="graph">
+        <img src="../images/dashboardimage.png" alt="graph">
+      </div>
+      <div class="balcontainer">
+        <div class="cas1">
+          <div class="bal bal1">
+            <div class="const">
+              <h5>Capital</h5>
+              <h6>$0.00</h6>
+              <p>BTC 0.00000000</p>
+            </div>
+            <div class="const2">
+              <i class="bi bi-cash-stack"></i>
+            </div>
+          </div>
+          <div class="bal bal2">
+            <div class="const">
+              <h5>Available balance</h5>
+              <h6>$0.00</h6>
+              <p>BTC 0.00000000</p>
+            </div>
+            <div class="const2">
+              <i class="bi bi-arrow-left-right"></i>
+              <h6>Bonus</h6>
+              <h6>$0.00</h6>
+            </div>
+          </div>
+          <div class="bal bal3">
+            <div class="const">
+              <h5>Trade status</h5>
+              
+              <div class="checkcont">
+                <div class="won">
+                  <i class="bi bi-check-square-fill text-success"></i> 0
+                  <p>Total Won</p>
+                </div>
+                <div class="loss">
+                  0 <i class="bi bi-check-square-fill text-danger"></i>
+                  <p>Total Loss</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="bal bal4">
+            <div class="const">
+              <h5>Investment plan</h5>
+              <h6>None</h6>
+              <p>Package status null</p>
+            </div>
+            <div class="const2">
+              <i class="bi bi-shield-fill-check"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cas2">
+          <div class="earners">
+            <h4>Top Earners</h4>
+            <div class="pers">
+              <img src="../images/jordan.jpeg" alt="" width="52" height="52" class="rounded-circle me-2">
+              <div class="oroo">
+                <p><strong>Jordan</strong><br>10,000 usdt <br>package: Diamond <br> <span>Registered 8months ago</span></p>
+              </div>
+            </div>
+            <div class="pers deylepro">
+              <img src="../images/deylepro.jpeg" alt="" width="52" height="52" class="rounded-circle me-2">
+              <div class="oroo">
+                <p><strong>Deylepro</strong><br> 1000 usdt <br>package: Silver <br><span>Registered 1month ago</span></p>
+              </div>
+            </div>
+            <div class="pers">
+              <img src="../images/samad.jpeg" alt="" width="52" height="52" class="rounded-circle me-2">
+              <div class="oroo">
+                <p><strong>Smighty</strong><br>4,000 usdt <br>package: Gold <br> <span>Registered 3months ago</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+<script src="../bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.js"></script>
+</html>

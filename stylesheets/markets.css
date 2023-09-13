@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style-type: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:rgb(220, 222, 247)!important;
+}
+#header{
+    width:100%;
+    max-height:12rem;
+    background-color:rgb(220, 222, 247);
+    position: fixed;
+    z-index:3;
+}
+nav{ 
+    margin:1.5rem auto;
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+#header nav .dropdown a strong i{
+    color: rgb(42, 42, 233);
+}
+#sameelogo{
+    width:20vw;
+}
+#sameelogo a{
+    font-weight:bold;
+    font-size:1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+#logo1{
+    font-family:sans-serif;
+    color:rgb(68, 73, 181);
+}
+#logo2{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(25, 17, 0, 0.6);
+    font-weight: normal;
+    margin:-0.3rem 0 0 0;    
+}
+.marketable{
+    padding:10rem 0 0 16rem;
+    width:90%;
+    margin: auto;
+}
+.marketable table, tr, td{
+    background-color: rgb(220, 222, 247)!important;
+}
+.marketable table td{
+    font-weight:500;
+}
+.marketable table td span{
+    font-weight: 90;
+    font-size:0.8rem;
+}
+.marketable table .cont{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap:1rem;
+}
+#trade{
+    color: rgb(68, 73, 181);
+}
+#sidenav{
+    background-color: rgb(150, 157, 255);
+}
+@media (max-width:1049px){
+    .marketable{
+        padding:10rem 0 0 14rem;
+    }
+}
+@media(max-width:992px){
+    .marketable{
+        padding:10rem 0 0 12rem;
+    }
+}
+@media(max-width:768px){
+    .marketable{
+        padding:10rem 0 0 13rem;
+    }
+}
+@media(max-width:565px){
+    .marketable{
+        padding:10rem 0 0 13rem;
+    }
+}

@@ -1,0 +1,211 @@
+@media(max-width:1415px){
+    .body .firstpage .textarea h1{
+        font-size:3.8rem;
+    }
+}
+@media (max-width:1365px){
+    .body .firstpage .textarea h1{
+        font-size:3.5rem;
+    }
+}
+@media (max-width:1345px){
+    .landinglink ul li{
+        margin-right:0.9rem;
+    }
+    .landinglink ul li a{
+        font-weight:500;
+    }
+}
+@media (max-width:1330px){
+    .landinglink ul li{
+        margin-right:0.7rem;
+    }
+}
+@media (max-width:1315px){
+    .landinglink ul li{
+        margin-right:0.6rem;
+    }
+    .body .firstpage .textarea h1{
+        font-size:3.2rem;
+    }
+    .body #about .textarea h3{
+        font-size:1.7rem;
+    }
+}
+@media (max-width:1290px){
+    .landinglink ul li{
+        margin-right:0.5rem;
+    }
+}
+@media (max-width:1270px){
+    .landinglink ul li{
+        margin-right:0.4rem;
+    }
+    .landinglink ul li a{
+        font-weight:450;
+    }
+    .body #about .textarea h3{
+        font-size:1.5rem;
+    }
+}
+@media (max-width:1265px){
+    .landinglink ul li{
+        margin-right:0.3rem;
+    }
+}
+@media (max-width:1245px){
+    .landinglink ul li{
+        margin-right:0.2rem;
+    }
+}
+@media (max-width:1200px){
+    .landinglink ul li a{
+        font-weight:400;
+    }
+    .body .firstpage .textarea h1{
+        font-size:3rem;
+    }
+}
+@media (max-width:1170px){
+    .buts button{
+        padding: 0.4rem 1.1rem;
+        margin-right:1rem;
+    } 
+    .body #about .textarea h3{
+        font-size:1.42rem;
+    }
+    #section4{
+        width:100% !important;
+    }
+    footer{
+        width:100% !important;
+    }
+    .section3{
+        width:100%;
+    }
+    .section2{
+        width:100%;
+    }
+}
+@media (max-width:1120px){
+    .landinglink ul li{
+        margin-right:0.2rem;
+    }
+    .body .firstpage .textarea h1{
+          font-size:2.8rem;
+    } 
+    .body .firstpage .imagearea{
+        bottom:5rem;
+    }
+    .body .firstpage .imagearea img{
+        width:39vw;
+    }
+    .body #about .textarea h3{
+        font-size:1.3rem;
+    }
+}
+@media (max-width:1080px){
+    .landinglink ul li{
+        margin-right:0.15rem;
+    }
+    .landinglink ul li a{
+        font-weight:380;
+    }
+    .buts button{
+        margin-right:0.8rem;
+    } 
+}
+@media (max-width:1060px){
+    .buts button{
+        margin-right:0.7rem;
+    } 
+}
+@media (max-width:1040px){
+.body #about .textarea h3{
+    font-size:1.2rem;
+}
+}
+@media (max-width:1020px){
+    .buts button{
+        margin-right:0.5rem;
+    }
+    .body .firstpage .textarea h1{
+        font-size:2.6rem;
+    }
+    .body .firstpage .imagearea img{
+        width:37vw;
+    }
+
+}
+@media (max-width:1010px){
+    .body #about .textarea h3{
+        font-size:1.1rem;
+    }
+}
+@media (max-width:1000px){
+    .landinglink ul li a{
+        font-weight:350;
+    }
+}
+@media (max-width:985px){
+    .landinglink ul li a{
+        font-weight:320;
+    }
+}
+@media (max-width:975px){
+    .buts button{
+        padding:0.3rem 1rem;
+    }
+    .body .firstpage .textarea h1{
+        font-size:2.4rem;
+  }
+}
+@media (max-width:915px){
+    .landinglink{
+        display: none;
+    }
+    .buts{
+        display: none;
+    }
+    .body .firstpage{
+        grid-template-columns: 1.5fr !important;
+    }
+    .body .firstpage .imagearea{
+        bottom:2rem;
+    }
+    .body #about{
+        grid-template-columns:1.5fr !important;
+        gap:2rem;
+    }
+    .section3 .phonearea{
+        grid-template-columns:1.5fr !important;
+    }
+    .section4 .testimonials .reviewpart{
+        grid-template-columns:1.5fr !important;
+    }
+    .section5 .fgridcontainer{
+        grid-template-columns: 1.5fr !important;
+    }
+    footer .ftcontainer .footergrid{
+        grid-template-columns:1.5fr !important;
+    }
+    .body #about .imagearea img{
+        position: relative;
+    }
+    #component #check:checked~ .landinglink ul{
+        display: block;
+        position: absolute;
+        
+    }
+}
+@media (max-width:550px){
+    .body .firstpage .imagearea {
+        top:1rem;
+    }
+    .body .firstpage .imagearea img{
+        width:50vw;
+    }
+    .body #about .imagearea img{
+        left:0;
+    }
+}

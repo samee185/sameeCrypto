@@ -1,0 +1,198 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+body{
+    background-color:rgb(220, 222, 247)!important;
+}
+#header{
+    width:100%;
+    max-height:12rem;
+    background-color:rgb(220, 222, 247);
+    position: fixed;
+    z-index:3;
+}
+nav{ 
+    margin:1.5rem auto;
+    width:90%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+#header nav .dropdown a strong i{
+    color: rgb(42, 42, 233);
+}
+#sameelogo{
+    width:20vw;
+}
+#sameelogo a{
+    font-weight:bold;
+    font-size:1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+#logo1{
+    font-family:sans-serif;
+    color:rgb(68, 73, 181);
+}
+#logo2{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(25, 17, 0, 0.6);
+    font-weight: normal;
+}
+.coinside{
+    padding:7rem  0 0 14rem;
+}
+.coinside ul{
+    display: flex;
+    list-style-type: none;
+    gap:1rem;
+}
+.coinside ul li{
+    display: flex;
+    margin-right:2rem;
+    align-items: start;
+    gap:0.725rem;
+}
+.coinside ul li:hover{
+    outline:1px solid rgb(255, 215, 0);
+}
+.coinside ul li .ctext{
+    text-align: center;
+    margin-left:-1.2rem;
+}
+.coinside ul li .ctext h6{
+    font-weight:650;
+}
+.coinside ul li .ctext p{
+    font-size:1rem;
+    font-weight:480;
+    margin-top:-0.3rem;
+}
+#red{
+    color:rgb(255, 0, 0);
+    font-size:0.9rem;
+    margin-top:-0.9rem;
+    font-weight: 480;
+}
+.graph{
+    padding:0 0 0 16rem;   
+}
+.graph img{
+    max-width:80vw;
+}
+.balcontainer{
+    display:grid !important;
+    grid-template-columns:3fr 1fr;
+    gap:3.5rem;
+    margin-left:8rem;
+    padding:3rem 8rem;
+}
+.balcontainer .cas1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:0.5rem;
+    max-height:50vh;
+    margin-top:8.25rem;
+}
+.balcontainer .cas1 .bal{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:1rem;     
+    color:rgb(220, 222, 247);
+    padding:0 0.7rem;
+}
+.bal1{
+    background-color:rgb(68, 73, 181);
+}
+.bal1 .const2 i{
+    font-size: 2rem;
+}
+.bal2{
+    background-color: rgb(3, 140, 83);
+}
+.bal3{
+    background-color: rgb(68, 73, 181);
+}
+.bal4{
+    background-color: rgb(203, 197, 25);
+}
+.bal4 .const2{
+    font-size:2rem;
+}
+.balcontainer .cas2 .earners{
+    background-color: rgb(68, 73, 181);
+    padding:2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+    color: rgb(220, 222, 247);
+    font-size:0.8rem;
+} 
+.balcontainer .cas2 .earners .pers{
+    display:flex;
+    align-items:center;
+    background-color: rgb(220, 222, 247);
+    color: black;
+    padding:0.8rem 0.4rem 0;
+    border-radius:0.5rem;
+}
+.balcontainer .cas2 .earners .pers:hover{
+    background-color: rgb(255, 255, 255) !important;
+    transition:.3s ease-out;
+    width:18vw;
+
+}
+.oroo span{
+    color:rgba(68, 73, 181, 0.6);
+}
+.checkcont{
+    display: flex;
+    gap:1rem;
+}
+@media (max-width:1235px){
+    .coinside ul li{
+        gap:0.825rem;
+    }
+}
+@media (max-width:1195px){
+    .coinside ul li{
+        gap:1.5rem;
+    }
+}
+@media (max-width:1131px){
+    .coinside{
+        padding:7rem  0 0 13rem;
+    }
+    .coinside ul li {
+        margin-right:1.5rem;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1061px){
+    .coinside ul li{
+        margin-right:1rem;
+    }
+}
+@media (max-width:685px){
+    .graph img{
+        min-width:90vw;
+    }
+    .coinside ul li{
+        gap:1.2rem;
+        font-size:0.8rem;   
+    }
+    #sideber{
+        width:200px !important;
+    }
+    .coinside{
+        padding-left:11rem;
+    }
+}

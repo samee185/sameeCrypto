@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+body{
+    background-color:rgb(220, 222, 247)!important;
+}
+#header{
+    width:100%;
+    max-height:12rem;
+    background-color:rgb(220, 222, 247);
+}
+nav{ 
+    margin:1.5rem auto;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#sameelogo{
+    width:20vw;
+}
+#sameelogo a{
+    font-weight:bold;
+    font-size:1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+#logo1{
+    font-family:sans-serif;
+    color:rgb(68, 73, 181);
+}
+#logo2{
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(25, 17, 0, 0.6);
+    font-weight: normal;
+    margin:-0.3rem 0 0 0;    
+}
+#header nav span i{
+    font-weight: bold;
+    font-size:2.5rem;
+}
+.body{
+    width: 45%;
+    margin:-3.5rem auto;
+}
+.body #shead{
+    text-align: center;
+}
+.body #shead h1{
+    line-height:1.7;
+}
+.body #shead p{
+    font-size:1.1rem;
+}
+#btnsign button{
+    background-color:rgb(68, 73, 181);
+    color: rgb(220, 222, 247);
+    font-size: 1.2rem;
+}
+.body .jform h6{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.body .jform div{
+    margin-bottom:1.8rem;
+}
+#fcheck1{
+    border:2px solid black;
+}
+#btnsign{
+    margin-bottom:6rem;
+}
+#btnsign button{
+    background-color:rgb(68, 73, 181);
+    color: rgb(220, 222, 247);
+    font-size: 1.2rem;
+}
+#btnsign a{
+    text-decoration:none!important;
+    font-size:1rem;
+    color:rgb(68, 73, 181);
+
+}
